@@ -2,11 +2,10 @@
 #include <conio.h>
 #include <iostream>
 #include "Correr.h"
+#include <SFML/Graphics.hpp>
 
 using namespace std;
 
 void main() {
-	Correr r;
-
-	r.correr();
+	Correr juego({ 1000,600 }, "ADAMEITOR");
 };

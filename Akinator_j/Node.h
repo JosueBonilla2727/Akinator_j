@@ -58,5 +58,37 @@ class Node {
 				}
 			}
 		}
+
+		void jugarNode(Node*& arbol) {
+			int adi, per;
+			if (arbol == NULL) {
+				cout << "tu personaje:";
+				cin >> dato;
+				cout << endl << endl;
+				insertar_Nodo(arbol, dato);
+			}
+			else {
+				cout << "Tu personaje:" << arbol->dato << "?" << endl;
+				cin >> per;
+				if (per == 1) {
+					
+				}
+				else {
+					
+				}
+			}
+			cout << "Tu personaje:" << arbol->dato << endl;
+			cout << "Ya adivine tu personaje?" << endl;
+			cin >> adi;
+			if (adi == 0) {
+				cout << "tu personaje:";
+				cin >> dato;
+				cout << endl << endl;
+				insertar_Nodo(arbol, dato);
+			}
+			else {
+				cout << "Gracias por jugar" << endl;
+			}
+		}
 		
 };
