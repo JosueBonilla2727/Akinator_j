@@ -1,4 +1,4 @@
-/*
+
 /**
 	Progaramacion oreintada a objetos
 	Proyecto 2
